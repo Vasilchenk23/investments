@@ -1,9 +1,14 @@
-
-
+import React from 'react';
 import styled from 'styled-components';
 import 'bootstrap/dist/css/bootstrap.css';
 import './style.css';
 import buty from './img/buty.png';
+import buty2 from './img/buty2.png';
+import buty3 from './img/buty3.png';
+import buty4 from './img/buty4.png'
+import buty5 from './img/buty5.png'
+import buty6 from './img/buty6.png'
+import buty7 from './img/buty7.png'
 import Instagram from './Components/Instagram/Instagram';
 import FaceBook from './Components/FaceBook/FaceBook';
 import GitHub from './Components/GitHub/GitHub';
@@ -11,6 +16,7 @@ import addToCard from './img/add-to-card.png';
 import play from './img/play.png';
 import Header from './Components/Header/Header';
 import NavBar from './Components/NavBar/NavBar';
+import { Carousel } from 'react-bootstrap';
 
 
 
@@ -90,7 +96,71 @@ function App() {
         <NavBar></NavBar>
       </div>
       <MainImg>
-    <img src={buty} alt='sport_buty'/>
+      <Carousel>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={buty}
+            alt="Slide 1"
+          />
+          <Carousel.Caption>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={buty2}
+            alt="Slide 2"
+          />
+          <Carousel.Caption>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={buty3}
+            alt="Slide 3"
+          />
+          <Carousel.Caption>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={buty4}
+            alt="Slide 4"
+          />
+          <Carousel.Caption>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={buty5}
+            alt="Slide 4"
+          />
+          <Carousel.Caption>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={buty6}
+            alt="Slide 4"
+          />
+          <Carousel.Caption>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={buty7}
+            alt="Slide 4"
+          />
+          <Carousel.Caption>
+          </Carousel.Caption>
+        </Carousel.Item>
+      </Carousel>
       </MainImg>
       <Page>
         <p>Pump up your game and style.<br/> With Max Air cushioning in the heel, these lightweight<br/> and stable shoes let you take off with a firm punch and land comfortably.<br/> In addition, rubber covers the area on the sides for added durability and stability.</p>
