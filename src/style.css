@@ -1,0 +1,42 @@
+
+.block1{
+    border-right: 1px solid rgb(178, 176, 176);
+    width: 210px;
+    height: 432px;
+    margin: 52px 0px;
+}
+.logo{
+    margin: 0px 0px 0px 20px;
+}
+.shoes{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.bags{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.accessories{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.support{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.search{
+    margin: 10px 10px;
+    cursor: pointer;
+}
+.basket{
+    margin: 10px 10px;
+    cursor: pointer;
+}
+.authorization{
+    margin: 10px 10px;
+    cursor: pointer;
+}
+.mainButtons{
+    display: flex;
+    justify-content: space-between;
+}
